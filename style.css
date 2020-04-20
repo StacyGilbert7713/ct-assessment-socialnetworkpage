@@ -1,0 +1,29 @@
+body {
+    background-color: lightgray;
+}
+
+.big-blue-header {
+    height: 300px;
+    width: 80%;
+    background-color: rgb(78, 99, 220);
+    margin: 0 auto;
+}
+
+.profile-photo {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgb(78, 99, 220);
+    position: relative;
+    top: 135px;
+    left: 20px;
+    border-radius: 1.75%;
+}
+
+.navbar {
+    border: 1px dotted black;
+    width: 80%;
+    margin: 0 auto;
+    height: 75px;
+    background-color: whitesmoke;
+}
