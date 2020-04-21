@@ -1,29 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: lightgray;
+    font-family: sans-serif;
 }
 
 .big-blue-header {
     height: 300px;
-    width: 80%;
-    background-color: rgb(78, 99, 220);
+    width: 850px;
+    background-color: rgb(78,99,220);
     margin: 0 auto;
+}
+
+.navbar {
+    border: 1px dotted black;
+    width: 850px;
+    margin: 0 auto;
+    height: 55px;
+    background-color: white;
 }
 
 .profile-photo {
     height: 200px;
     width: 200px;
     border: 1px solid black;
-    background-color: rgb(78, 99, 220);
+    border-radius: 1.75%;
+    background-color: rgb(78,99,220);
     position: relative;
     top: 135px;
     left: 20px;
+}
+
+.navbar li {
+    position: relative;
+    top: 0px;
+    left: 170px;
+    margin-left: 30px;
+    list-style: none;
+    float: left;
+    font-size: 16px;
+}
+
+.timeline {
+    font-weight: bold;
+}
+
+.button-group {
+    position: relative;
+    left: 570px;
+    top: 60px;
+}
+
+main {
+    height: 2000px;
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.column-left{
+    width: 328px;
+    height: 2000px;
+    float: left;
+}
+
+.column-right{
+    width: 512px;
+    height: 2000px;
+    float: right;
+    border: 2px dotted black
+}
+
+.card {
+    background-color: white;
+    padding-top: 8px;
+    width: 328px;
+    border-radius: 1.75%
+}
+
+.card h2 {
+    border-top: 1px solid lightgray;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.card2 {
+    background-color: white;
+    padding-top: 8px;
+    width: 512px;
     border-radius: 1.75%;
 }
 
-.navbar {
-    border: 1px dotted black;
-    width: 80%;
-    margin: 0 auto;
-    height: 75px;
-    background-color: whitesmoke;
+.card2 h2 {
+    border-top: 1px solid lightgray;
+    font-size: 18px;
+    font-family: sans-serif;
 }
