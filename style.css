@@ -51,6 +51,13 @@ body {
     position: relative;
     left: 570px;
     top: 60px;
+    display: flex;
+    
+}
+
+button {
+    margin-left: 2px;
+    border-radius: 5%;
 }
 
 main {
@@ -70,7 +77,6 @@ main {
     width: 512px;
     height: 2000px;
     float: right;
-    border: 2px dotted black
 }
 
 .card {
@@ -89,6 +95,7 @@ main {
 .card2 {
     background-color: white;
     padding-top: 8px;
+    height: 250px;
     width: 512px;
     border-radius: 1.75%;
 }
@@ -97,4 +104,5 @@ main {
     border-top: 1px solid lightgray;
     font-size: 18px;
     font-family: sans-serif;
+    
 }
